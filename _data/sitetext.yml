@@ -44,25 +44,15 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "광운대학교 졸업"
+        year: "2013-2019"
+        desc: "광운대학교에서 로봇학부 전공을 했습니다. <br>제어 전공을 하며 하드웨어와 소프트웨어 모두 이해할 수 있었습니다. 하드웨어 소프트웨어를 가리지 않았으며 특히 제어기 설계, 임베디드 시스템에 대해 주로 공부를 했습니다!"
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "TUV SUD Korea"
+        year: "2020-2022"
+        desc: "독일 최대 인증업체 TUV SUD Korea에서 스마트 팩토리 엔지니어로 약 2년 4개월 간 근무를 <br>했습니다. IEC 62541(OPC UA), SQA(ISO 25051), OT 사이버 보안(IEC 62443) 인증 프로젝트에 <br>프로젝트 핸들러로 프로젝트를 도맡아서 진행했습니다!"
         image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
