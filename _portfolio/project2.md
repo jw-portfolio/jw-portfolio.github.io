@@ -20,7 +20,7 @@ caption:
 2\. Kubesphere 서비스 구축  
 3\. EFS 구축 및 필요한 디지털 트윈 리소스 EFS에 저장  
 4\. 디지털 트윈 서버를 도커 이미지로 구현 및 DockeHub에 등록  
-5\. 배포를 위한 Helm Chrt 생성  
+5\. 배포를 위한 Helm Chart 생성  
 6\. Helm Chart 패키지 Kubesphere에 등록  
 7\. Kubesphere에서 마스터 노드에 명령을 내리고 디지털 트윈 서버를 띄울 때 EFS에 저장되어 있는 리소스들을 가져와 자동 배포
 

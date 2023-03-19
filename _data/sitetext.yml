@@ -32,7 +32,7 @@ en: &DEFAULT_EN
         #<img src="https://img.shields.io/badge/표시할이름-색상?style=for-the-badge&logo=기술스택아이콘&logoColor=white">
         icon: fas fa-microchip #find more at https://fontawesome.com/icons
 
-      - title: Web/DevOps"
+      - title: "Web/DevOps"
         desc:
           <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
           <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
@@ -55,7 +55,7 @@ en: &DEFAULT_EN
           <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&logo=Visual Studio Code&logoColor=white">
           <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white">
           <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white">
-        icon: fas fa-database
+        icon: fas fa-toolbox
 
   portfolio:
     title: "프로젝트"

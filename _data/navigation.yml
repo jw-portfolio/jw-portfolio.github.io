@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Stack"
-      section: stack
+    - title: "Stacks"
+      section: stacks
     - title: "Projects"
       section: portfolio
     - title: "About"
