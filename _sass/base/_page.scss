@@ -10,14 +10,14 @@ p {
 }
 
 a {
-  color: $primary;
+  color: $red-default;
   &:hover {
-    color: darken($primary, 10%);
+    color: darken($red-default, 10%);
   }
 }
 
 .text-primary {
-  color: $primary !important;
+  color: $red-default !important;
 }
 
 h1,
@@ -54,12 +54,12 @@ h6 {
 
 // Highlight color customization
 ::-moz-selection {
-  background: $primary;
+  background: $red-default;
   text-shadow: none;
 }
 
 ::selection {
-  background: $primary;
+  background: $red-default;
   text-shadow: none;
 }
 
