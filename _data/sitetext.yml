@@ -41,6 +41,7 @@ en: &DEFAULT_EN
           <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">
           <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=NestJS&logoColor=white">
           <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
+          <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=Helm&logoColor=white">
           <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=Kubernetes&logoColor=white">
           <img src="https://img.shields.io/badge/Amazon EKS-FF9900?style=for-the-badge&logo=Amazon EKS&logoColor=white">
           <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=Amazon AWS&logoColor=white">
@@ -58,9 +59,9 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "프로젝트"
-    text: "Project"
+    text: "Projects"
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close"
 
   timeline:
     title: "경력"
@@ -71,22 +72,34 @@ en: &DEFAULT_EN
     events:
       - title: "광운대학교 졸업"
         year: "2013-2019"
-        desc: "광운대학교에서 로봇학부 전공을 했습니다. <br>제어 전공을 하며 하드웨어와 소프트웨어 모두 이해할 수 있었습니다. 하드웨어 소프트웨어를 가리지 않았으며 특히 제어기 설계, 임베디드 시스템에 대해 주로 공부를 했습니다!"
-        image: assets/img/timeline/1.jpg
+        desc: "광운대학교에서 로봇학부 전공을 했습니다.<br>
+          하드웨어 소프트웨어를 가리지 않았으며 특히 제어기 설계, 임베디드 시스템에 대해 주로 공부를 했습니다."
+        image: assets/img/timeline/education.jpeg
         alt:
       - title: "TUV SUD Korea"
         year: "2020-2022"
-        desc: "독일 최대 인증업체 TUV SUD Korea에서 스마트 팩토리 엔지니어로 약 2년 4개월 간 근무를 <br>했습니다. IEC 62541(OPC UA), SQA(ISO 25051), OT 사이버 보안(IEC 62443) 인증 프로젝트에 <br>프로젝트 핸들러로 프로젝트를 도맡아서 진행했습니다!"
-        image: assets/img/timeline/2.jpg
+        desc:
+          "독일 최대 인증 업체 TUV SUD Korea에서 스마트 팩토리 엔지니어로 약 2년 4개월 간 근무를 했습니다.<br>
+          OPC UA(IEC 62541), SQA(ISO 25051), OT 사이버 보안(IEC 62443) 인증 프로젝트에서 <br>프로젝트 핸들러로 프로젝트를 도맡아서 진행했습니다"
+        image: assets/img/timeline/certificate.jpeg
         alt:
         # you can enforce the alignment
         align: right
+      - title: "한국전자기술연구원"
+        year: "2022-현재"
+        desc:
+          "현재 KETI(한국전자기술연구원)에서 스마트제조와 관련된 소프트웨어 솔루션을 개발하고 있습니다.<br>
+          Frontend, Backend, DevOps 등등 가리지 않고 관련된 기술들을 공부하고 이를 제조 솔루션에 적용하여 최적화된 IT와 OT의 융합을 구현하고 있습니다."
+        image: assets/img/timeline/developer.jpeg
+        alt:
     end: "저와 함께 <br> 만들어 <br> 가시죠!"
 
   about:
     title: "저는.."
     text: "About"
-    body: "외국계 인증 업체에서 소프트웨어 인증 업무를 전담하다 개발자로 전향했습니다.<br>소프트웨어 인증을 통해 소프트웨어 개발 라이프 사이클을 이해하며 최고의 품질을 가진 소프트웨어를 개발하고 싶습니다!"
+    body:
+      "외국계 인증 업체에서 근무를 하여 소프트웨어 인증에 관련된 백그라운드를 가지고 있습니다.<br>
+      소프트웨어 인증을 통해 소프트웨어 개발 라이프 사이클을 이해하며<br>최고의 품질을 가진 소프트웨어를 개발하고 싶습니다."
     section: about
 
   clients:
